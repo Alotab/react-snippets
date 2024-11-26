@@ -19,6 +19,7 @@ const MealsProvider = ({children}) => {
 // exporting the useMealsListContext to be used in other components
 export const useMealsListContext = () => useContext(MealsContext)
 
+// use to wrapper the <App />
 export default MealsProvider
 
 
