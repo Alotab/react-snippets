@@ -1,5 +1,8 @@
 import { useReducer } from "react";
 
+// useReducer[initailState, reducer] hook is a super powered useState[initialState] hook with an addition of reducer function
+// the reducer second arguement is the action object
+
 
 const reducer = (state, action) => {
     if (action.type === 'ride') return {money: state.money + 10};
