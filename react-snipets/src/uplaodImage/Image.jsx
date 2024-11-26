@@ -6,7 +6,7 @@ const Image = () => {
     <div>
         <img src={girl} alt="A picture of girl" />
         {/* or */}
-        {/* You dont need the import statement for doing this  */}
+        {/* when using the relative path of the image, You dont need the import statement for doing this  */}
         <img src={require('../assets/images/girl.jpeg')} alt="" />
     </div>
   )
