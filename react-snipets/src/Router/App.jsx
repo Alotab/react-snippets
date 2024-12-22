@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Homepage from './Homepage'
 import AboutMe from './AboutMe'
 import { Link, Route, Routes } from 'react-router-dom'
