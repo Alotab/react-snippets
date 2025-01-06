@@ -6,8 +6,7 @@ const Forms = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        setName("")
-
+        setName("");
     }
 
   return (
